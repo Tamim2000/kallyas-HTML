@@ -1,0 +1,85 @@
+
+/*** Bootstrap Overwrite
+--------------------------*/
+@media(max-width:990px){
+    .navbar-nav {
+        z-index: 999999;
+        position: absolute;
+        background:#202b30;
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 900px){
+    .item-content {
+        width: 90%;
+        left:6%;
+    }
+    .handcraft-content .content-wrapper {
+        width: 100%;
+    }
+    .handcraft-content {
+        background: url(../images/bottom-image.jpg)75%;
+    }
+    .contact-wrapper h2 {
+        font-size: 38px;
+        margin-bottom: 1rem;
+    }
+    .service-box {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1080px) and (min-width: 720px){
+    .banner-content {width: 80%;}
+    .banner-content p{width: 90%;}
+    .item-content {width: 100%;left:-1%;}
+    .service-box{width: 38%;}
+    .about-bottom{margin-top: 300px;}
+    .about-bottom .btn {margin-bottom: 30px}
+    .about-bottom .solid-color{display: none;}
+    .about-bottom .photo-slider{width:100%;}
+    .porfolio-tabs li a {
+        font-size: 13px;
+        margin: 9px 2px;
+        padding: 3px 8px;
+        background: gainsboro;
+    }
+    .client-content .btn {margin-bottom: 2rem;}
+    .handcraft-content {
+        background: url(../images/bottom-image.jpg)48%;
+    }
+    .f-right input {width: 100%;}
+    .footer-nav-toggle{display: none;}
+}
+@media screen and (max-width: 719px) and (min-width: 576px){
+    .item-content {
+        left: 20px;
+    }
+}
+@media screen and (max-width: 719px) and (min-width: 320px){
+    .banner-content{width: 90%;}
+    .banner-content h2{ font-size: 18px;}
+    .banner-content p{font-size: 14px;width: 85%;}
+    .banner-btn{display: block;}
+    .banner-btn .btn1 {padding: 5px 25px; margin-bottom: 9px;}
+    .banner-btn .btn2 {margin-bottom: 9px;}
+    .item-content{width: 94%;}
+    .about-bottom{margin-top: 620px;}
+    .about-bottom{padding: 40px 20px;}
+    .about-bottom p{font-size: 14px;}
+    .about-bottom .btn{margin-bottom: 20px;}
+    .service-content { padding: 60px 0px;}
+    .porfolio-tabs li a {margin: 5px 4px;padding: 2px 5px;background: gainsboro;}
+    .client-content .btn{margin-bottom: 20px;}
+    .handcraft-content {
+        background: url(../images/bottom-image.jpg)55%;
+    }
+    .contact-wrapper h2{font-size: 22px;text-align: left;}
+    .contact-wrapper p{text-align: left;}
+    .contact-wrapper form {padding-left: 0rem;}
+    .f-right input{width: 100%;}
+    .f-right h6{text-align: left;}
+    .f-right span{font-size: 12px;}
+    .footer-nav-toggle{display: none;}
+}
